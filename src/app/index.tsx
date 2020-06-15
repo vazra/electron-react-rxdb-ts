@@ -1,5 +1,8 @@
 import React from "react";
+import Dashboard from "./components/Dashboard";
 
-export default function App() {
-  return <h1>Hello, from React! nice</h1>;
+function App() {
+  return <Dashboard />;
 }
+
+export default App;

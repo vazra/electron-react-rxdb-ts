@@ -13,8 +13,7 @@
   },
   "keywords": [],
   "author": {
-    "name": "Ameen Rashad",
-    "email": "ameenrashadv@gmail.com"
+    "name": "Vazra"
   },
   "license": "MIT",
   "config": {
@@ -81,11 +80,16 @@
     "@electron-forge/maker-squirrel": "6.0.0-beta.50",
     "@electron-forge/maker-zip": "6.0.0-beta.50",
     "@electron-forge/plugin-webpack": "6.0.0-beta.50",
-    "@marshallofsound/webpack-asset-relocator-loader": "^0.5.0",
+    "@types/faker": "4.1.12",
+    "@types/jest": "24.9.1",
+    "@types/node": "12.12.47",
     "@types/react": "^16.9.36",
+    "@types/react-bootstrap-table-next": "4.0.4",
+    "@types/react-bootstrap-table2-paginator": "2.1.1",
     "@types/react-dom": "^16.9.8",
     "@typescript-eslint/eslint-plugin": "^2.18.0",
     "@typescript-eslint/parser": "^2.18.0",
+    "@zeit/webpack-asset-relocator-loader": "https://github.com/vazra/webpack-asset-relocator-loader",
     "css-loader": "^3.0.0",
     "electron": "9.0.4",
     "eslint": "^6.8.0",
@@ -95,11 +99,21 @@
     "source-map-loader": "^1.0.0",
     "style-loader": "^0.23.1",
     "ts-loader": "^6.2.1",
-    "typescript": "^3.7.0"
+    "typescript": "3.9.5"
   },
   "dependencies": {
+    "bootstrap": "4.5.0",
     "electron-squirrel-startup": "^1.0.0",
+    "faker": "4.1.0",
+    "pouchdb-adapter-idb": "7.2.1",
+    "pouchdb-adapter-leveldb": "^7.2.1",
+    "pouchdb-adapter-memory": "7.2.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-bootstrap": "1.0.1",
+    "react-bootstrap-table-next": "4.0.3",
+    "react-bootstrap-table2-paginator": "2.1.2",
+    "react-dom": "^16.13.1",
+    "rxdb": "9.1.0",
+    "rxjs": "6.5.5"
   }
 }
